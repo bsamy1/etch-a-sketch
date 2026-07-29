@@ -1,0 +1,41 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.root-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.grid-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/*
+Source - https://stackoverflow.com/a/74246643
+Posted by Alber_Quintana, modified by community. See post 'Timeline' for change history
+Retrieved 2026-07-28, License - CC BY-SA 4.0
+*/
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  width: 560px;
+  height: 560px;
+  border: 3px solid black;
+}
+
+#container>div {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+}
