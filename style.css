@@ -13,6 +13,11 @@ body , html{
     background-color: #f0f0f0; 
 }
 
+.no-of-squares-btn {
+  margin: 10px;
+  padding: 2px;
+}
+
 .reset-button {
   margin: 10px;
   padding: 5px;

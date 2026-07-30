@@ -22,3 +22,9 @@ boxes.forEach(box => {
   box.style.backgroundColor = "#a9a9a9";
   });
 });
+
+const reset_btn = document.querySelector('.reset-button');
+
+reset_btn.addEventListener('click', () => {
+  window.location.reload();
+});
