@@ -12,7 +12,7 @@ function makeDivs(numDivs) {
   }
 }
 
-makeDivs(256);
+makeDivs(10000);
 
 const boxes = document.querySelectorAll('.boxes')
 
@@ -26,5 +26,12 @@ boxes.forEach(box => {
 const reset_btn = document.querySelector('.reset-button');
 
 reset_btn.addEventListener('click', () => {
-  window.location.reload();
+  window.location.reload(); 
+});
+
+const square_prompt = document.querySelector('.no-of-squares-btn');
+
+square_prompt.addEventListener('click', () => {
+  let squares = prompt("How many grids per side would you like?");
+  console.log("User selected " + squares);
 });
